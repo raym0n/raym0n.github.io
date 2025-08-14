@@ -1,0 +1,18 @@
+- date: 2023-10-15
+  venue: Клуб "Глюк"
+  city: Москва
+  time: "20:00"
+  ticket: https://neurostamps.ticket.ru/oct15
+  status: upcoming
+
+- date: 2023-11-03
+  venue: "Арт-пространство Сбой"
+  city: Санкт-Петербург
+  time: "19:30"
+  ticket: https://neurostamps.ticket.ru/nov3
+  status: upcoming
+
+- date: 2023-09-10
+  venue: "Фабрика"
+  city: Казань
+  status: past

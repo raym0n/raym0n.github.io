@@ -27,8 +27,12 @@ url: https://www.nstmp.ru # the base hostname & protocol for your site, e.g. htt
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
+# Настройки группы
+city: Москва
+genre: Техно-панк
+
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
@@ -55,3 +59,23 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Социальные сети
+social:
+  vk:
+    url: https://vk.com/neurostamps
+    icon: vk
+  telegram:
+    url: https://t.me/neurostamps
+    icon: telegram
+  youtube:
+    url: https://youtube.com/neurostamps
+    icon: youtube
+  bandcamp:
+    url: https://neurostamps.bandcamp.com
+    icon: bandcamp
+
+# Переменные
+neuro_primary: "#0ff" # Неоновый циан
+neuro_secondary: "#f0f" # Неоновый пурпур
+neuro_dark: "#0a0a12" # Глубокий сине-черный

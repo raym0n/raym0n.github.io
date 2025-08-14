@@ -1,0 +1,33 @@
+// Glitch эффекты
+@keyframes glitch-text {
+  0% { text-shadow: 0.05em 0 0 $neuro-primary, -0.05em -0.025em 0 $neuro-secondary; }
+  14% { text-shadow: 0.05em 0 0 $neuro-primary, -0.05em -0.025em 0 $neuro-secondary; }
+  15% { text-shadow: -0.05em -0.025em 0 $neuro-primary, 0.025em 0.025em 0 $neuro-secondary; }
+  49% { text-shadow: -0.05em -0.025em 0 $neuro-primary, 0.025em 0.025em 0 $neuro-secondary; }
+  50% { text-shadow: 0.025em 0.05em 0 $neuro-primary, 0.05em 0 0 $neuro-secondary; }
+  99% { text-shadow: 0.025em 0.05em 0 $neuro-primary, 0.05em 0 0 $neuro-secondary; }
+  100% { text-shadow: -0.025em 0 0 $neuro-primary, -0.025em -0.025em 0 $neuro-secondary; }
+}
+
+.glitch-link {
+  position: relative;
+
+  &:hover::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -1px 0 $neuro-secondary;
+    top: 0;
+    color: white;
+    background: $neuro-dark;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: glitch-anim 5s infinite linear alternate-reverse;
+  }
+}
+
+@keyframes glitch-anim {
+  0% { clip: rect(42px, 9999px, 44px, 0) }
+  5% { clip: rect(12px, 9999px, 59px, 0) }
+  ...
+}
