@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Welcome to unfuck!"
+title:  "Контакты"
 date:   2022-04-04 20:29:12 +0300
-categories: unfuck
+categories:
 ---
 
-Check out [Anton]
-
-[Anton]: https://t.me/GrachevAnt
+https://t.me/nestamp
+https:www.youtube.com/@nstmps
